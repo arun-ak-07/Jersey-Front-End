@@ -1,0 +1,145 @@
+/* HEADER */
+.main1111{
+    height: auto;
+    width: 100%;
+    background: white;
+}
+h1 p{
+    margin: 0;
+    padding: 0;
+}
+
+.top-main00{
+    height: 50px;
+    width: auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    background-color: #1F1B4C;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+Nav.Link{
+    color: black;
+}
+.topmain-text00{
+    /* margin-left: 100px; */
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 8px;
+}
+
+
+/* HEADER ENDS */
+
+.header{
+    height: auto;
+    width:100%;
+    background: white;
+}
+.header1{
+    margin: 30px;
+}
+.navBrand{
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 0px;
+}
+.d-flex{
+    margin-right: 50px;
+}
+.inpSearch{
+    width: 500px;
+}
+.bg-body-tertiary{
+    height: 100px;
+}
+.logos{
+    margin-left: 0px;
+}
+
+.topbar{
+    height: auto;
+    width: 100%;
+}
+.me-2{
+    width: 350px;
+    margin-left: 60px;
+}
+
+.cart-countH{
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    background: rgb(207, 68, 68);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+ }
+ .cartIcons{
+    display: flex;
+    flex-direction: row;
+ }
+
+@media (max-width: 768px) {
+    .topbar{
+        padding-bottom: 10px;
+    }
+    .logos{
+        margin-left: 10px;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        margin: 0;
+        padding: 0;
+    }
+    .nav-style{
+        z-index: 999;
+        color: #FFFFFF !important;
+    }
+
+    .top-main00{
+        height: auto;
+    }
+    .topbar{
+        height: auto;
+    }
+    .bg-body-tertiary {
+        height: auto !important;
+       
+    }
+    .me-2{
+        width: 250px;
+    }
+    .topmain-text00{
+        font-size: 12px;
+    }
+    .d-block{
+        width: 100%;
+    }
+    .search-input{
+        width: 200px;
+        font-size: 14px;
+        padding: 0.375rem 0.75rem;
+      }
+    
+      .search-button{
+        font-size: 14px;
+        padding: 0.375rem 0.75rem;
+        width: 100%; /* Full width for mobile screens */
+      }
+     
+}
+
+

@@ -1,0 +1,22 @@
+.category-cards0{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.slideCards0{
+    transition: 0.5s all ease-in-out;
+}
+.slideCards0:hover{
+    transform: scale(1.25);
+}
+.cardMain0{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.cardBody0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

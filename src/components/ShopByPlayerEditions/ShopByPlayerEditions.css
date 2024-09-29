@@ -1,0 +1,135 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-mainc3{
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    background-color: #1F1B4C;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.topmain-text{
+    /* margin-left: 100px; */
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 8px;
+}
+/* HEADER */
+.main{
+    height: 1000px;
+    width: auto;
+    background: white
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background: white;
+}
+.header1{
+    margin: 30px;
+}
+.navBrand{
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 0px;
+}
+.d-flex{
+    margin-right: 50px;
+}
+.inpSearch{
+    width: 500px;
+}
+.bg-body-tertiary{
+    height: 100px;
+}
+.logo{
+    margin-left: 50px;
+}
+
+
+
+/* HEADER ENDS */
+
+/* CENTER */
+
+.centerc334{
+    width: 100%;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.imagec33 img{
+    margin-top: 40px;
+    margin-top: 20px;
+    width: 1300px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    /* aspect-ratio: 5.49/1; */
+    max-height: 100vh;
+}
+.imageTitlec3 p{
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 510;
+}
+.imageTitlec3{
+    margin-top: 50px;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.center-items3{
+    height: 600px;
+    width: 100%;
+    background:white;
+    display: flex;
+}
+/* CENTER ENDS */
+
+
+
+/* FOOTER */
+
+.footer{
+    
+    height: 100px;
+    width: 100%;
+    background: white;
+    padding-top: 20px;
+    display:'flex';
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo{
+    height: 30px;
+    width: 30px;
+}
+.footer-links{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+/* FOTTER ENDS */
+
+@media (max-width: 768px) {
+    .imagec33 img{
+        width: 100%;
+        height: auto;
+    }
+}

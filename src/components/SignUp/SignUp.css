@@ -1,0 +1,80 @@
+.mainb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.form-groupb{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background: #2C2C54;
+
+    height: 580px;
+    width: 400px;
+    margin-top: 0px;
+    border-radius: 10px;
+    border: 10px black bolder;
+}
+
+.inpsS{
+    font-size: 15px;
+    padding-left: 10px;
+    color: black;
+}
+.form-mainb{
+    border: 10px bold black;
+}
+.form-groupb button,input{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+}
+.form-groupb button{
+    font-weight: bold;
+}
+.form-groupb button:hover{
+    background: #8CFFDA;
+}
+.signIn-centerb{
+    height: 620px;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.form-headerb{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.form-parab{
+    color: white;
+    font-size: 12px;
+}
+.form-mainb .form-groupb a{
+    text-decoration: none;
+}
+.form-mainb .form-groupb label{
+    color: white;
+}
+.signIn-emailb{
+    margin-right: 230px;
+}
+.signIn-passwordb{
+    margin-right: 200px;
+}
+.signIn-nameb{
+    margin-right: 200px;
+}
+.form-groupb input{
+    font-size: 13px;
+}
+.signIn-passwordb1{
+    margin-right: 143px;
+}

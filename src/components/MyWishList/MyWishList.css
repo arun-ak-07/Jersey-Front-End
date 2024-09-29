@@ -1,0 +1,148 @@
+.mainf{
+    height: auto;
+    width: 100%;
+    background: white
+}
+/* TOP MAIN */
+.top-mainf{
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    background-color: #1F1B4C;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.topmain-textf{
+    /* margin-left: 100px; */
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 8px;
+}
+.topf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btnf{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background: black;
+}
+.centerf{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 320px; */
+}
+.centerf1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 320px;
+}
+.amain-card1a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.center-textf2 p{
+    font-size: 16px;
+    line-height: 24px;
+    color:grey;
+    letter-spacing: 1px;
+}
+.center-textf1 h4{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.card1a{
+    height: 302px;
+    width: 900px;
+    display: flex;
+    border: 1px grey;
+    border-style: groove;
+    margin-bottom: 20px;
+}
+
+.card1a-left{
+    height: 300px;
+    width: 30%;
+    background: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    border: 1px grey;
+    border-style: groove;
+}
+.card1a-right{
+    height: 300px;
+    width: 70%; 
+    background: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px grey;
+    border-style: groove;
+    justify-content: center;
+}
+.removeButton{
+    margin-left: 520px;
+    margin-bottom: 80px;
+}
+
+.data12{
+    margin-bottom: 80px; 
+}
+
+.wishImg{
+    height: 260px;
+    width: 100%;
+}
+
+/* TOP MAIN ENDS*/
+
+@media (max-width: 768px) {
+    .card1a{
+        width: 100%;
+        height: 200px;
+    }
+    .card1a-left{
+        height: 200px;
+    }
+    .card1a-right{
+        height: 200px;
+    }
+    .amain-card1a{
+        padding: 10px;
+    }
+    .removeButton{
+        margin-left: 150px;
+        margin-top: 80px;
+    }
+    .removeButton P{
+        font-size: 12px;
+    }
+    .wishImg{
+        height: 130px;
+        width: 100%;
+    }
+    .data12{
+        margin-bottom: 100px;
+    }
+    .wishTxt{
+        font-size: 18px;
+    }
+    .wishlistLogo{
+        margin-left: 300px;
+    }
+}

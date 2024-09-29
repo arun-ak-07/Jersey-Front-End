@@ -1,0 +1,164 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+Link{
+    text-decoration: none;
+}
+
+
+/* CENTER */
+.center1111{
+    height: auto;
+    width: 100%;
+    background:linear-gradient(black,cyan);
+    padding-bottom: 100px;
+}
+
+.center-2Main{
+    padding-top: 50px;
+     padding-left: 50px; 
+     padding-right: 50px; 
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    
+    /* margin: 50px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: linear-gradient(cyan,black);
+}
+/* .card{
+    margin: 10px;
+    margin-top: 20px;
+} */
+Nav hr{
+    border: bold;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    color: red;
+    background: red;
+}
+.center-1{
+    text-align: center;
+    padding-top: 50px;
+}
+.category-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+/* .center-2{
+    margin-top: 100px;
+} */
+.slideImage{
+    height: 800px;
+    width: 1200px;
+    margin: 50px;
+}
+.slideCards{
+    transition: 0.5s all ease-in-out;
+}
+.slideCards:hover{
+    transform: scale(1.25);
+}
+/* CENTER ENDS */
+
+/* CENTER IMAGES */
+.t-24_32 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+.t-16_24 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+.mt-24, .mt24 {
+    margin-top: 24px;
+}
+
+.textCenter {
+    text-align: center;
+}
+.medium {
+    font-weight: var(--medium-font-weight);
+}
+.mt-8, .mt8 {
+    margin-top: 8px;
+}
+.textCenter {
+    text-align: center;
+}
+.btn-dark {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 160px;
+    height: 50px;
+    letter-spacing: 1px;
+    border-radius: none;
+}
+.btn-dark:hover{
+    color: black;
+}
+/* CENTER IMAGES ENDS */
+
+
+@media (max-width: 768px) {
+    .category-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 00px;
+        align-items: center;
+    }
+    .cardsimage{
+        height: 300px;
+        width: 300px;
+    }
+    .blackShade{
+        height: 350px;
+        width: 300px;
+    }
+    .blackShade{
+        margin-top: 30px;
+    }
+    .imgsss{
+        width: 100%;
+        height: auto;
+    }
+    hr{
+        width: auto;
+    }
+    h1{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    .d-block{
+        width: 100%;
+        height: 100%;
+    }
+    .center-2Main{
+        padding-top: 0px;
+         padding-left: 0px; 
+         padding-right: 0px; 
+    }
+    .center1111{
+        height: auto;
+        width: 100%;
+        /* margin-top: 100px; */
+    }
+    .main1111{
+        width: 100%;
+    }
+}

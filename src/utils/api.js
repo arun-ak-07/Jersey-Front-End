@@ -1,0 +1,1 @@
+export const apiUrl = "https://jersey-backend.onrender.com"

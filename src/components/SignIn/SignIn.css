@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+.mainbs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.form-groupsb{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background: #2C2C54;
+    height: 450px;
+    width: 380px;
+    border-radius: 10px;
+    padding-top: 55px;
+}
+.form-groupsb  button,input{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    color: black;
+}
+.inpsS{
+    border-radius: 20px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.form-groupsb button{
+    font-weight: bold;
+}
+.form-groupsb button:hover{
+    background: #8CFFDA;
+}
+.signIn-centerb{
+    height: 620px;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-headerb{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.form-parab{
+    color: white;
+    font-size: 12px;
+}
+.form-mainb .form-groupsb a{
+    text-decoration: none;
+}
+.form-mainb .form-groupb label{
+    color: white;
+}
+.signIn-emailbc{
+    margin-right: 200px;
+    color: white;
+}
+.signIn-passwordbc{
+    margin-right: 200px;
+    color: white;
+}
