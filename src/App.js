@@ -29,7 +29,7 @@ import ManCity from './components/ShopByTeams/ManCity';
 import UsersPage from './components/AdminPage/UsersPage';
 import {Toaster} from 'react-hot-toast'
 import axios from 'axios';
-import {apiUrl} from '../../../frontend/my-project/src/utils/api'
+import {apiUrl} from '../src/utils/api'
 
 function App() {
   // const [myPlayers,setMyPlayers] =useState(myPlayersData)
