@@ -131,19 +131,6 @@ const Header = () => {
 
         <BodyScroll />
 
-        {token === null ? (
-          <Nav.Link
-            style={{ fontWeight: "bold", color: "black" }}
-            onClick={() => nav("/signIn")}
-          >
-            LogIn
-          </Nav.Link>
-        ) : (
-          <Nav.Link style={{ fontWeight: "bold", color: "black" }} onClick={logoutBtn}>
-            Logout
-          </Nav.Link>
-        )}
-
         <Nav.Link
           style={{ fontWeight: "bold", color: "black" }}
           onClick={() => nav("/ProductDisplay")}
@@ -181,6 +168,20 @@ const Header = () => {
         <Nav.Link style={{ fontWeight: "bold", color: "black" }}>
           Call Us : +91-9746726000
         </Nav.Link>
+
+        {token === null ? (
+          <Nav.Link
+            style={{ fontWeight: "bold", color: "black" }}
+            onClick={() => nav("/signIn")}
+          >
+            LogIn
+          </Nav.Link>
+        ) : (
+          <Nav.Link style={{ fontWeight: "bold", color: "black" }} onClick={logoutBtn}>
+            Logout
+          </Nav.Link>
+        )}
+
       </Nav>
     </Navbar.Collapse>
   </Container>
