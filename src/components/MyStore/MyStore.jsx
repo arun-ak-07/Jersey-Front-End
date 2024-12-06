@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "../MyStore/MyStore.css";
 import { useNavigate } from "react-router-dom";
 import Header from "../MyHomePage/Header";
@@ -6,6 +6,8 @@ import Footer from "../MyHomePage/Footer";
 import { myContext } from "../context/context";
 import AddToCarts from "../AddToCart/AddToCarts";
 import AddToWishlist from "../MyWishList/AddToWishlist";
+import { Container, Spinner } from "react-bootstrap";
+
 
 export default function MyStore() {
   const nav = useNavigate();
@@ -18,8 +20,13 @@ export default function MyStore() {
   console.log("Jerseys", myJersey)
   console.log("token", token);
 
-  // WISH ITEMS
+  const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    if(myJersey){
+      setLoading(false)
+    }
+  }, [myJersey])
 
   function displayProdDetails(products) {
     if (prodDisp.includes(products)) {
@@ -41,9 +48,17 @@ export default function MyStore() {
       />
 
       <div className="aacenter">
-        <div className="amain-card">
+
+      {loading ? (
+          <Container className="d-flex justify-content-center align-items-center" style={{ height: "80vh" }}>
+            <Spinner animation="border" role="status" variant="primary" size="lg">
+              <span className="visually-hidden">Loading...</span>
+            </Spinner>
+          </Container>
+        ) : (
+          <div className="amain-card">
           {myJersey ? (
-            myJersey.map((data, index) => (
+            myJersey?.map((data, index) => (
               <div
                 class="card"
                 style={{
@@ -83,6 +98,7 @@ export default function MyStore() {
             <h2>No Results Found!!!!</h2>
           )}
         </div>
+        )}
       </div>
 
       <hr style={{ width: "100%", marginTop: "50px" }} />
